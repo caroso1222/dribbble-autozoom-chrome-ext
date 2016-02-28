@@ -1,9 +1,6 @@
 // Regex-pattern to check URLs against. 
-// It matches URLs like: http[s]://[...]stackoverflow.com[...]
+// It matches URLs like: http[s]://[...]dribbble.com[...]
 var urlRegex = /^https?:\/\/(?:[^./?#]+\.)?dribbble\.com/;
-
-// A function to use as callback
-
 
 var last_url = "";
 
